@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   padding: 0; 
+}
+header{
+display: flex;
+justify-content:space-between;
+flex-direction: row;
+
+}
+.seg-div{
+    display: flex;
+    display:inline-block;
+    justify-content: space-around;
+    color: yellowgreen;
+    font-size: 2rem;
+    align-items: center; 
+    text-decoration: none; 
+    margin: 0;    
+}
+.ter-div{
+    font-size: 30px;
+    color: chartreuse;
+    display: inline-block;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+    align-items: center;
+}
+.logo{
+justify-content: end;
+height: 80px;
+}
+body{
+    background-image:url(./10117.jpg); 
+    image-resolution: 1080px;
+    font-family:  Verdana;
+    margin-top: 1rem;
+    align-items: center; 
+}
+.h1{
+
+ 
+    font-size: 150px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    margin-top: 0;
+    margin-left: 3rem;
+    padding-top: 1rem;
+
+    
+
+}
+.ladiv{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 10rem;
+    align-items: center; 
+    text-decoration: none; 
+    margin: 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+#de{
+background-color: red;
+font-size: 6rem;
+margin-inline-start: auto;
+}
+.h2{
+    font-size: 70px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 3rem;
+}
+.parrafo1{
+    font-size: 33px;
+    margin-left: 3rem;
+    height: 200px;
+    width: 950px;
+    text-align: center;
+    color: rgb(251, 251, 250);
+    
+}
+.fotonetsin{
+    margin-top: 5rem;
+    margin-left: 1rem;
+    font-size: 10rem;
+    width: 5rem;
+    height: 3rem;
+    background-color: aqua;
+}
+#camp{
+    background-color: wheat ;
+    border-radius: 10px;
+}
+#lupa{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#niños{
+    background-color: antiquewhite;
+    color: black;
+    padding: .6rem;
+    margin-top: 1rem;
+}
+#flecha{
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.reproducir{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    height: 70px;
+    width: 350px;
+    font-size: 25px;
+}
+.mas-info{
+    margin-top: 3rem;
+    background-color: beige;
+    opacity: 0.8;
+    border-radius: 20px;
+    height: 70px;
+    width: 350px;
+    color: black;
+    font-size: 25px;
+}
+.card{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 190px;
+    width: 290px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    image-resolution: 100rem;
+
+    position:relative;
+    
+    top: 0;
+    
+
+}
+#h3{
+    font-family: 'Bebas Neue', cursive;
+    color: bisque;
+    font-size: 2rem;
+    margin-left: 1rem; 
+    margin-top: 1rem;
+    
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+}
+#fotos{
+    height: 10rem;
+    justify-content: space-around;
+    border-radius: 2em;
+    margin: 0.4rem;
+}
+#sobre-foto{
+
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+    border-radius: 1rem;
+    align-items: flex-start;
+}
+
+
